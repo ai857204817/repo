@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- 远端的组仓库 -->
+    <remote name="origin"
+        fetch="git@github.com:ai857204817/" />
+
+    <!-- 项目的默认配置 -->
+    <default revision="refs/heads/main"
+        remote="origin"
+        sync-c="true"
+        sync-j="4" />
+
+    <project name="gr5525"
+        revision="refs/heads/601_gr5525"
+        path="source"
+        groups="source,mcu" />
+        
+    <project name="stm32"
+        revision="refs/heads/601_stm32"
+        path="source"
+        groups="source,mcu" />
+
+</manifest>
