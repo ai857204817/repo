@@ -12,12 +12,12 @@
 
     <project name="gr5525"
         revision="refs/heads/601_gr5525"
-        path="source"
+        path="source/gr5525"
         groups="source,mcu" />
         
     <project name="stm32"
         revision="refs/heads/601_stm32"
-        path="source"
+        path="source/stm32"
         groups="source,mcu" />
 
 </manifest>
